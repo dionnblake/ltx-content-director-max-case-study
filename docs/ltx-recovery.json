@@ -1,0 +1,41 @@
+{
+  "failureRetry": {
+    "job_id": "ASN-003-C",
+    "failed_once": true,
+    "retried": true,
+    "final_status": "SUCCEEDED",
+    "attempts": 2
+  },
+  "transitions": [
+    {
+      "job_id": "ASN-003-C",
+      "from": "READY",
+      "to": "RUNNING",
+      "attempt": 1
+    },
+    {
+      "job_id": "ASN-003-C",
+      "from": "RUNNING",
+      "to": "FAILED",
+      "attempt": 1
+    },
+    {
+      "job_id": "ASN-003-C",
+      "from": "FAILED",
+      "to": "RETRY",
+      "attempt": 1
+    },
+    {
+      "job_id": "ASN-003-C",
+      "from": "RETRY",
+      "to": "RUNNING",
+      "attempt": 2
+    },
+    {
+      "job_id": "ASN-003-C",
+      "from": "RUNNING",
+      "to": "SUCCEEDED",
+      "attempt": 2
+    }
+  ]
+}

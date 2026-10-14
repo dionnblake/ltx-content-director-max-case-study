@@ -1,0 +1,19 @@
+{
+  "liveBoundary": "LIVE_GPU_RUN_BLOCKED: attach and review an approved LTX inference adapter before any cloud session.",
+  "acceptedMedia": "NOT_ESTABLISHED",
+  "costPerUsableClip": "UNKNOWN",
+  "reviewFields": [
+    {
+      "jobId": "ASN-001-A",
+      "status": "SUCCEEDED",
+      "reviewScore": null,
+      "notes": "DRY_RUN: no model call; no media generated."
+    },
+    {
+      "jobId": "ASN-001-B",
+      "status": "SUCCEEDED",
+      "reviewScore": null,
+      "notes": "DRY_RUN: no model call; no media generated."
+    }
+  ]
+}

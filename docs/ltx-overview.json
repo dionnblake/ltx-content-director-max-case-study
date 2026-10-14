@@ -1,0 +1,12 @@
+{
+  "mode": "DRY_RUN",
+  "queueJobs": 20,
+  "readyJobs": 15,
+  "blockedReferenceJobs": 5,
+  "flags": {
+    "model_calls": 0,
+    "runpod_calls": 0,
+    "huggingface_calls": 0,
+    "media_generated": 0
+  }
+}
