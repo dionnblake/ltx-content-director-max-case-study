@@ -2,6 +2,10 @@
 
 **AI video workflow preparation, validation, and review.**
 
+[![LTX Content Director Max: animated visual walkthrough](assets/demo.gif)](docs/WALKTHROUGH.md)
+
+*15-second looping slideshow of the existing public images. Recorded dry-run reports | Simulated retry | No generated media or live generation.*
+
 A video batch needs more than prompts: it needs required inputs, stable identifiers, controlled variations and a clear acceptance boundary. This workspace prepares and validates work before an owner starts an approved media-generation session. It currently demonstrates preparation and dry-run execution.
 
 ![LTX Content Director Max: ltx overview](assets/ltx-overview.png)
