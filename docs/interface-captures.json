@@ -1,0 +1,65 @@
+{
+  "captured_on": "2026-10-20",
+  "scope": "Actual frontend interface | Fictional demo brief | No media generation",
+  "capture_type": "Actual browser-rendered existing interface",
+  "screenshot_count": 6,
+  "screenshots": [
+    {
+      "image": "assets/ltx-intake-business.jpg",
+      "label": "Business and contact details",
+      "sha256": "bf04fec0f7121d24709d10fb63deeeaa07346b7f556c05e43d01c6631e62f38c",
+      "dimensions": [
+        1524,
+        723
+      ]
+    },
+    {
+      "image": "assets/ltx-intake-objective.jpg",
+      "label": "Video objective and deliverable",
+      "sha256": "8ebde61325e6a9dc966a3237f7956b95dd3f332b13067f9502e118c0f2605fe0",
+      "dimensions": [
+        1524,
+        723
+      ]
+    },
+    {
+      "image": "assets/ltx-intake-creative.jpg",
+      "label": "Audience and creative direction",
+      "sha256": "acad6ef492359bfa701ce3e4313b0cf350115551fc2f6610605887a45845248e",
+      "dimensions": [
+        1524,
+        723
+      ]
+    },
+    {
+      "image": "assets/ltx-intake-production.jpg",
+      "label": "Production details",
+      "sha256": "f0b29b583039041602b2997d51e87ff474c3e5ccc85ab221dd69fff22dee2157",
+      "dimensions": [
+        1524,
+        723
+      ]
+    },
+    {
+      "image": "assets/ltx-intake-assets.jpg",
+      "label": "Asset collection interface",
+      "sha256": "48342e676d64ef95e787715cf84c92e8b7ce6789983e585574910df629af3383",
+      "dimensions": [
+        1524,
+        723
+      ]
+    },
+    {
+      "image": "assets/ltx-intake-review.jpg",
+      "label": "Production brief review",
+      "sha256": "5fdb6c927aa08cb106ee933baeb1e6f9b6845d27558ec4f92d3d1b15b2c0eda4",
+      "dimensions": [
+        1536,
+        729
+      ]
+    }
+  ],
+  "live_provider_calls": 0,
+  "production_writes": 0,
+  "private_source_published": false
+}

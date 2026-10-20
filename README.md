@@ -2,17 +2,17 @@
 
 **AI video workflow preparation, validation, and review.**
 
-[![LTX Content Director Max: animated visual walkthrough](assets/demo.gif)](docs/WALKTHROUGH.md)
+[![LTX Content Director Max: animated visual walkthrough](assets/interface-demo.gif)](docs/WALKTHROUGH.md)
 
-*15-second looping slideshow of the existing public images. Recorded dry-run reports | Simulated retry | No generated media or live generation.*
+*Actual Intake V2 frontend screens, captured October 20, 2026 with a fictional brief. Business details, objectives, creative direction, production notes, asset collection and brief review. No media generation.*
 
-A video batch needs more than prompts: it needs required inputs, stable identifiers, controlled variations and a clear acceptance boundary. This workspace prepares and validates work before an owner starts an approved media-generation session. It currently demonstrates preparation and dry-run execution.
+A video batch needs more than prompts: it needs required inputs, stable identifiers, controlled variations and a clear acceptance boundary. This workspace prepares and validates work before an owner starts an approved media-generation session. It includes an Intake V2 frontend for collecting a brief, plus separately demonstrated queue preparation and dry-run execution. The intake screenshots do not establish an automatic connection to the runner.
 
-![LTX Content Director Max: ltx overview](assets/ltx-overview.png)
+![LTX Intake V2: actual creative direction screen](assets/ltx-intake-creative.jpg)
 
-*Locally rendered genuine output report; this is not an application UI screenshot. Read its scope and limitations below.*
+*Actual frontend interface using a fictional demo brief. Persistent upload storage and media generation are separate, unconnected capabilities.*
 
-**Status:** Validated local preparation and simulated runner behavior; private implementation; no generated media.
+**Status:** Actual frontend intake; separately validated local queue preparation and simulated runner behavior; private implementation; no generated media.
 
 [Walkthrough](docs/WALKTHROUGH.md) · [Technical explanation](docs/ARCHITECTURE.md) · [Validation scope](docs/EVIDENCE.md)
 
@@ -33,6 +33,8 @@ A canonical queue definition generates owner-readable and machine-readable recor
 - Keep generation disconnected until review: the live-adapter entrypoint refuses execution. This limits the demo to preparation but prevents a local test from accidentally starting a paid session.
 
 ## Validation
+
+On October 20, 2026, the existing Intake V2 HTML interface was opened locally and all six steps were captured with original fictional data. Navigation, form selections and review rendering were exercised. The upload screen shows an empty manifest: file selection, permanent storage, JSON/CSV export and runner integration were not verified by these captures. [Capture details](docs/interface-captures.json).
 
 Fresh execution used main commit f75f0209e7f8ec2acefd87bcc174166e46594720. runDryRun validated the queue and processed its 15 ready jobs; the five reference-blocked jobs remained outside the ready set. One failure/retry path was simulated. The adapter refusal was observed. Model, RunPod and Hugging Face calls and generated-media counts were all zero.
 

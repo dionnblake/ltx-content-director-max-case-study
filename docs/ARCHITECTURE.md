@@ -1,5 +1,7 @@
 # LTX Content Director Max: architecture
 
+Intake V2 is an existing frontend-only brief collection interface with six steps, a live form summary and local review rendering. The captured interface uses fictional data. Persistent asset storage, exports and automatic runner integration were not established by this screenshot session.
+
 A canonical queue definition generates owner-readable and machine-readable records. Node.js validation checks schema, counts, IDs, required metadata and deterministic output names. The dry-run runner maps READY jobs into transitions and result records. Separate Python helpers support future technical decode, audio assembly and visual-review stages after owner-controlled generation.
 
 - Deterministic identifiers keep a job traceable across preparation, retries and review. They simplify reconciliation but do not establish media quality.
